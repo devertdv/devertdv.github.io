@@ -74,6 +74,7 @@ top_relevant_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "100%"
                             },
                     ),
                 ),
@@ -98,6 +99,7 @@ top_relevant_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "100%"
                             },
                 ),
 
@@ -114,6 +116,7 @@ top_relevant_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "100%"
                             },
                 ),
 
@@ -130,6 +133,7 @@ top_relevant_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "100%"
                             },
                 ),
 
@@ -146,6 +150,7 @@ top_relevant_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "100%"
                             },
                 )
             ],
