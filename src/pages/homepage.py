@@ -13,17 +13,33 @@ homepage_layout = html.Div(
                         dbc.NavLink("Общая информация по научной области", href="/general_info", active="exact"),
                         html.P("Тут тоже какой то небольшой текст про то, что будет в разделе \"Общая информация по научной области\"")
                     ],
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 ),
                 html.Div(
                     [
                         dbc.NavLink("Инфографика по наиболее релевантным статьям", href="/top_relevant", active="exact"),
                         html.P("Тут тоже какой то небольшой текст про то, что будет в разделе \"Инфографика по наиболее релевантным статьям\"")
                     ],
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 ),
             ],
-            className="row flex-display"
+            style={
+                "display": "flex",
+            }
         )
     ],
     style={

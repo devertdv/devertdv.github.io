@@ -2,13 +2,13 @@ from dash import html, dcc
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
-from app import app
-from src.components.bar_chart import *
-from src.components.big_table import *
-from src.components.pie_chart import *
-from src.components.table_chart import *
-from src.components.treemap_chart import *
-from src.components.updated_tables_chart import *
+from index import app
+from components.bar_chart import *
+from components.big_table import *
+from components.pie_chart import *
+from components.table_chart import *
+from components.treemap_chart import *
+from components.updated_tables_chart import *
 
 
 top_relevant_layout = html.Div(
@@ -67,7 +67,14 @@ top_relevant_layout = html.Div(
                             )
                         ],
                         id="treemap_container",
-                        className="pretty_container",
+                        style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                     ),
                 ),
 
@@ -84,7 +91,14 @@ top_relevant_layout = html.Div(
                         )
                     ],
                     id="big_table_container",
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 ),
 
                 html.Div(
@@ -93,7 +107,14 @@ top_relevant_layout = html.Div(
                         dcc.Graph(id='circle_doctype')
                     ],
                     id="big_table_container",
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 ),
 
                 html.Div(
@@ -102,7 +123,14 @@ top_relevant_layout = html.Div(
                         dcc.Graph(id='circle_source_title')
                     ],
                     id="big_table_container",
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 ),
 
                 html.Div(
@@ -111,7 +139,14 @@ top_relevant_layout = html.Div(
                         dcc.Graph(id='circle_pub')
                     ],
                     id="big_table_container",
-                    className="pretty_container",
+                    style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                 )
             ],
             style={
