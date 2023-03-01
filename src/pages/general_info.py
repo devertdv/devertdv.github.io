@@ -73,6 +73,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                             id="cross-filter-options",
                         ),
@@ -85,6 +86,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                     ],
@@ -114,6 +116,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                         html.Div(
@@ -125,6 +128,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                     ],
@@ -153,6 +157,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                         html.Div(
@@ -164,6 +169,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                     ],
@@ -192,6 +198,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                         html.Div(
@@ -203,6 +210,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                     ],
@@ -231,6 +239,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                         html.Div(
@@ -242,6 +251,7 @@ general_info_layout = html.Div(
                                 "padding": "15px",
                                 "position": "relative",
                                 "box-shadow": "2px 2px 2px lightgrey",
+                                "width": "45%"
                             },
                         ),
                     ],
@@ -301,7 +311,7 @@ def update_figure_authors(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
                 html.H3("Authors - Number of docs"),
@@ -310,7 +320,7 @@ def update_figure_authors(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 )
             ],
@@ -329,7 +339,7 @@ def update_figure_organizations(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
                 html.H3("Organizations - Number of docs"),
@@ -338,7 +348,7 @@ def update_figure_organizations(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
             ]
@@ -357,7 +367,7 @@ def update_figure_fundings(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
                 html.H3("Fundings - Number of docs"),
@@ -366,7 +376,7 @@ def update_figure_fundings(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
             ]
@@ -385,7 +395,7 @@ def update_figure_countries(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
                 html.H3("Countries - Number of docs"),
@@ -394,7 +404,7 @@ def update_figure_countries(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
             ]
@@ -414,7 +424,7 @@ def update_figure_sources(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
                 html.H3("Sources - Number of docs"),
@@ -423,7 +433,7 @@ def update_figure_sources(selected_rows, sort_by):
                     style={
                         'overflowY': 'scroll',
                         'height': 350,
-                        'width': 650
+                        'width': "100%"
                     }
                 ),
             ]
