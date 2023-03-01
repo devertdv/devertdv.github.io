@@ -1,8 +1,8 @@
-import dash
 from dash import html, dcc
 from dash.dependencies import Input, Output
 
-from src.pages import homepage, general_info, top_relevant
+from index import app
+from pages import homepage, general_info, top_relevant
 
 url_content_layout = html.Div(
     [
@@ -11,9 +11,6 @@ url_content_layout = html.Div(
     ]
 )
 
-
-app = dash.Dash(__name__)
-server = app.server
 
 app.layout = url_content_layout
 

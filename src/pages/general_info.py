@@ -2,11 +2,10 @@ from dash import html, dcc
 from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 
-from app import app
-from src.components.bar_chart import *
-from src.components.big_table import *
-from src.components.table_chart import *
-from src.components.updated_tables_chart import *
+from index import app
+from components.bar_chart import *
+from components.table_chart import *
+from components.updated_tables_chart import *
 
 
 general_info_layout = html.Div(
@@ -67,15 +66,31 @@ general_info_layout = html.Div(
                                     ]
                                 )
                             ],
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                             id="cross-filter-options",
-                            className="pretty_container",
                         ),
                         html.Div(
                             id='figure-author',
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                     ],
-                    className="row flex-display",
+                    style={
+                        "display": "flex",
+                    }
                 ),
 
                 html.Div(
@@ -92,14 +107,30 @@ general_info_layout = html.Div(
                                 )
                             ],
                             id="cross-filter-options",
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                         html.Div(
                             id='figure-organization',
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                     ],
-                    className="row flex-display",
+                    style={
+                        "display": "flex",
+                    }
                 ),
                 html.Div(
                     [
@@ -115,14 +146,30 @@ general_info_layout = html.Div(
                                 )
                             ],
                             id="cross-filter-options",
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                         html.Div(
                             id='figure-funding',
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                     ],
-                    className="row flex-display",
+                    style={
+                        "display": "flex",
+                    }
                 ),
                 html.Div(
                     [
@@ -138,14 +185,30 @@ general_info_layout = html.Div(
                                 )
                             ],
                             id="cross-filter-options",
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                         html.Div(
                             id='figure-country',
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                     ],
-                    className="row flex-display",
+                    style={
+                        "display": "flex",
+                    }
                 ),
                 html.Div(
                     [
@@ -161,14 +224,30 @@ general_info_layout = html.Div(
                                 )
                             ],
                             id="cross-filter-options",
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                         html.Div(
                             id='figure-source',
-                            className="pretty_container",
+                            style={
+                                "border-radius": "5px",
+                                "background-color": "#f9f9f9",
+                                "margin": "10px",
+                                "padding": "15px",
+                                "position": "relative",
+                                "box-shadow": "2px 2px 2px lightgrey",
+                            },
                         ),
                     ],
-                    className="row flex-display",
+                    style={
+                        "display": "flex",
+                    }
                 ),
 
                 html.Div(

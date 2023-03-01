@@ -1,5 +1,5 @@
 import pandas as pd
-from src.components.read_files import *
+from components.read_files import *
 
 authors_dct = {}
 sources_dct = {}

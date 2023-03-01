@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 import textwrap as tw
-from src.components.read_files import *
+from components.read_files import *
 
 def create_bar_chart_rate(df, selected_rows=[], sort_by=[]):
     dff = df.iloc[selected_rows]
