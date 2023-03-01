@@ -11,6 +11,7 @@ url_content_layout = html.Div(
     ]
 )
 
+server = app.server
 
 app.layout = url_content_layout
 
